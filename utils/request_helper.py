@@ -1,6 +1,14 @@
-
 import requests
-from config.config import BASE_URL, TOKEN
+import configparser
+
+# Read config.ini
+config = configparser.ConfigParser()
+config.read(r'C:\Users\itsup\Desktop\auto-new\v3-api-test-automation\config\config.ini')  # Path to your config.ini file
+
+# Select the environment (This could be dynamic based on environment variable)
+environment = 'QA'  # Or 'DEV', 'PROD', etc.
+BASE_URL = config[environment]['BASE_URL']
+TOKEN = config[environment]['TOKEN']
 
 def add_auth_header(headers=None):
     if headers is None:
@@ -20,5 +28,3 @@ def post(endpoint, data=None, headers=None):
     headers = add_auth_header(headers)
     response = requests.post(url, json=data, headers=headers)
     return response
-
-
