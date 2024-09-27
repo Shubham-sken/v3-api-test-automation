@@ -1,0 +1,33 @@
+orgid,crm,code,response
+505,296,200,"[
+        {
+            ""crmIntegrationId"": 296,
+            ""activityAttribute"": ""phonecall.activitytypecode"",
+            ""activityAttributeValue"": ""phonecall"",
+            ""startDateAttribute"": ""phonecall.createdon"",
+            ""contentAttribute"": ""phonecall.description"",
+            ""inboundDirectionAttribute"": ""phonecall.directioncode"",
+            ""inboundDirectionAttributeValue"": ""Incoming"",
+            ""outboundDirectionAttribute"": ""phonecall.directioncode"",
+            ""outboundDirectionAttributeValue"": ""Outgoing"",
+            ""activity"": ""CALL""
+        },
+        {
+            ""crmIntegrationId"": 296,
+            ""activityAttribute"": ""appointment.activitytypecode"",
+            ""activityAttributeValue"": ""appointment"",
+            ""startDateAttribute"": ""appointment.createdon"",
+            ""contentAttribute"": ""appointment.description"",
+            ""inboundDirectionAttribute"": ""appointment.location"",
+            ""inboundDirectionAttributeValue"": ""Inbound"",
+            ""outboundDirectionAttribute"": ""appointment.location"",
+            ""outboundDirectionAttributeValue"": ""Outbound"",
+            ""activity"": ""WEBINAR""
+        }
+    ]"
+384,200,404,CRM not integrated with Id 200 and org Id 384
+384,201,404,CRM not integrated with Id 201 and org Id 384
+36789678984,201,400,Invalid value '36789678984' for parameter 'orgId' of type 'Integer'
+36789jnjj678984,20jjj1,400,Invalid value '20jjj1' for parameter 'crmIntegrationId' of type 'Integer'
+jhgfdfghj,bnnbvgh,400,Invalid value 'bnnbvgh' for parameter 'crmIntegrationId' of type 'Integer'
+jhgfdfghj,bnnbvgh///@@@@,404,No static resource v3/organizations/jhgfdfghj/crms/bnnbvgh/@@@@/activity-mapping.

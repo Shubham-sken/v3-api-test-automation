@@ -1,0 +1,30 @@
+orgid,crm,code,response
+505,296,200,"{
+        ""contactName"": {
+            ""id"": 1330,
+            ""value"": ""contact.fullname""
+        },
+        ""dealValue"": {
+            ""id"": 1331,
+            ""value"": ""opportunity.budgetamount""
+        },
+        ""dealStage"": {
+            ""id"": 1332,
+            ""value"": ""opportunity.stepname""
+        },
+        ""custom"": [
+            {
+                ""id"": 1333,
+                ""saleskenField"": ""City"",
+                ""crmField"": ""contact.address1_city"",
+                ""crmFieldDataType"": ""String"",
+                ""goalId"": 8
+            }
+        ]
+    }"
+384,200,404,CRM not integrated with Id 200 and org Id 384
+384,201,404,CRM not integrated with Id 201 and org Id 384
+36789678,201,404,"Organization not found for given organizationId: 36,789,678"
+36789jnjj678984,20jjj1,400,Invalid value '36789jnjj678984' for parameter 'orgId' of type 'Integer'
+vvjscvef,ndbve,400,Invalid value 'vvjscvef' for parameter 'orgId' of type 'Integer'
+bebhjhercsk,d cugdfu???!!!,404,No static resource v3/organizations/bebhjhercsk/crms/d%20cugdfu.

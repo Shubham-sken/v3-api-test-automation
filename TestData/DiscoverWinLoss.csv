@@ -1,0 +1,33 @@
+orgid,crm,code,response
+505,296,200,"[
+        {
+            ""pipelineId"": 395,
+            ""pipelineName"": ""Sales Process"",
+            ""won"": {
+                ""mapType"": ""STAGE"",
+                ""stages"": [
+                    {
+                        ""id"": 2945,
+                        ""name"": ""develop""
+                    }
+                ]
+            },
+            ""loss"": {
+                ""mapType"": ""STAGE"",
+                ""stages"": [
+                    {
+                        ""id"": 2947,
+                        ""name"": ""close""
+                    }
+                ]
+            }
+        }
+    ]"
+384,200,404,CRM not integrated with Id 200 and org Id 384
+vfvjrhg,brjjgbru,400,Invalid value 'vfvjrhg' for parameter 'orgId' of type 'Integer'
+1234567890,345,404,"Organization not found for given organizationId: 1,234,567,890"
+384,201,404,CRM not integrated with Id 201 and org Id 384
+201,201,404,CRM not integrated with Id 201 and org Id 201
+abcd,200,400,Invalid value 'abcd' for parameter 'orgId' of type 'Integer'
+0,44,400,"[ ""Invalid org id.""]"
+,,404,No static resource v3/organizations/crms/win-loss-mapping.

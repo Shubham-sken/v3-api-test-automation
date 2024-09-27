@@ -1,0 +1,214 @@
+orgid,code,response
+520,200,"[
+        {
+            ""id"": 1,
+            ""name"": ""Credentialing"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 2,
+            ""name"": ""Key Value Propositioning"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 3,
+            ""name"": ""Rapport Building"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 4,
+            ""name"": ""Product Interest"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 5,
+            ""name"": ""Budget"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 6,
+            ""name"": ""Authority"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 7,
+            ""name"": ""Need"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 8,
+            ""name"": ""Timeframe"",
+            ""organizationId"": 0,
+            ""outputType"": ""DATE"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 9,
+            ""name"": ""Benefits and Features"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 10,
+            ""name"": ""ROI and Value Selling"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 11,
+            ""name"": ""Objections"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 12,
+            ""name"": ""Objection Handling"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 13,
+            ""name"": ""Pricing"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 14,
+            ""name"": ""Pricing Pushback"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 15,
+            ""name"": ""Product Fit"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 16,
+            ""name"": ""Urgency Creation"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 17,
+            ""name"": ""Next Steps"",
+            ""organizationId"": 0,
+            ""outputType"": ""TEXT"",
+            ""complianceType"": ""Positive"",
+            ""goalType"": ""SYSTEM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        },
+        {
+            ""id"": 289,
+            ""name"": ""Identify_hours"",
+            ""organizationId"": 520,
+            ""description"": ""Set achievable goals and monitor daily."",
+            ""outputType"": ""CURRENCY"",
+            ""complianceType"": ""Positive"",
+            ""expectingValues"": {
+                ""currencyValues"": {
+                    ""min"": 97.0,
+                    ""max"": 183.0,
+                    ""currencyCode"": ""INR""
+                }
+            },
+            ""goalType"": ""CUSTOM_GOAL"",
+            ""taskType"": [
+                ""CALL""
+            ]
+        }
+    ]"
+JIksmsj2344,400,Invalid value 'JIksmsj2344' for parameter 'orgId' of type 'Integer'
+8929,400,"Organization not found for given organizationId: 8,929"
+*722hfh2,400,Invalid value '*722hfh2' for parameter 'orgId' of type 'Integer'
+0.0002,400,Invalid value '0.0002' for parameter 'orgId' of type 'Integer'
+-987672,400,['Invalid Organization Id.']
