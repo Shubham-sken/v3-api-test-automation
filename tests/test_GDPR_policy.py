@@ -75,3 +75,4 @@ def test_GDPR_policy_api(index, row, api_crm_base_url, auth_headers):
     api_response = call_GDPR_policy_endpoint(api_crm_base_url, orgid, auth_headers)
     # Assert the API response with the test data
     assert_api_response(index, row, api_response)
+    
