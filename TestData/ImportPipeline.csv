@@ -1,0 +1,11 @@
+orgid,code,response
+520,200,"[
+        {
+            ""id"": 401,
+            ""organizationId"": 520,
+            ""name"": ""Dynamic Stream""
+        }
+    ]"
+iasdh,400,Invalid value 'iasdh' for parameter 'orgId' of type 'Integer'
+hsaihd@,400,Invalid value 'hsaihd@' for parameter 'orgId' of type 'Integer'
+9876,400,"Organization not found for given organizationId: 9,876"

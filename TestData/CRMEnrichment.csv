@@ -1,0 +1,35 @@
+orgid,crmid,code,response
+374,184,200," [
+        {
+            ""type"": ""CALL_CONVERSATION_INSIGHTS"",
+            ""value"": [
+                ""deal.9e827d6edc649fbef3ae644a2d3b4e1fcab30945""
+            ]
+        },
+        {
+            ""type"": ""WEBINAR_CONVERSATION_INSIGHTS"",
+            ""value"": [
+                ""deal.9e827d6edc649fbef3ae644a2d3b4e1fcab30945""
+            ]
+        },
+        {
+            ""type"": ""LEAD_INFORMATION"",
+            ""value"": [
+                ""custom.jobtitle""
+            ]
+        },
+        {
+            ""type"": ""DEAL_SUMMARY"",
+            ""value"": [
+                ""deal.cff995744ffd5f3df8fbab9bb53d5f60f0aa09db""
+            ]
+        }
+    ]"
+719,356,200,[]
+356,175,200,[]
+356,146,404,CRM not integrated with Id 146 and org Id 356
+456,153,404,CRM not integrated with Id 153 and org Id 456
+saauunn,4@ee,400,Invalid value 'saauunn' for parameter 'orgId' of type 'Integer'
+abc232,429jj,400,Invalid value 'abc232' for parameter 'orgId' of type 'Integer'
+544,429jj,400,Invalid value '429jj' for parameter 'crmIntegrationId' of type 'Integer'
+520,332,404,CRM not integrated with Id 332 and org Id 520

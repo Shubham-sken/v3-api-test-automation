@@ -1,0 +1,56 @@
+orgid,crm,code,response
+843,425,200,"{
+        ""count"": 4,
+        ""records"": [
+            {
+                ""saleskenId"": null,
+                ""crmAssociateId"": ""005dL000007SmNRQA0"",
+                ""firstName"": ""Andrew"",
+                ""lastName"": ""Smith"",
+                ""email"": ""andrewsmith@yopmail.com"",
+                ""phoneNumber"": null,
+                ""language"": ""en_US"",
+                ""timezone"": ""Asia/Kolkata"",
+                ""isPresent"": true
+            },
+            {
+                ""saleskenId"": null,
+                ""crmAssociateId"": ""005dL000007SmTtQAK"",
+                ""firstName"": ""Integration"",
+                ""lastName"": ""User"",
+                ""email"": ""noreply@example.com"",
+                ""phoneNumber"": null,
+                ""language"": ""en_US"",
+                ""timezone"": ""America/Los_Angeles"",
+                ""isPresent"": false
+            },
+            {
+                ""saleskenId"": null,
+                ""crmAssociateId"": ""005dL000007SmTyQAK"",
+                ""firstName"": ""Chatter Expert"",
+                ""lastName"": null,
+                ""email"": ""noreply@example.com"",
+                ""phoneNumber"": null,
+                ""language"": ""en_US"",
+                ""timezone"": ""America/Los_Angeles"",
+                ""isPresent"": false
+            },
+            {
+                ""saleskenId"": null,
+                ""crmAssociateId"": ""005dL000007SmTzQAK"",
+                ""firstName"": ""Security"",
+                ""lastName"": ""User"",
+                ""email"": ""noreply@example.com"",
+                ""phoneNumber"": null,
+                ""language"": ""en_US"",
+                ""timezone"": ""America/Los_Angeles"",
+                ""isPresent"": false
+            }
+        ]
+    }"
+843,1466,404,"CRM not integrated with Id 1,466 and org Id 843"
+kfje456789,hdgfhc56789,400,Invalid value 'kfje456789' for parameter 'orgId' of type 'Integer'
+12345678909,345,400,Invalid value '12345678909' for parameter 'orgId' of type 'Integer'
+505,222,404,CRM not integrated with Id 222 and org Id 505
+654567,jdhvjhfv,400,Invalid value 'jdhvjhfv' for parameter 'crmIntegrationId' of type 'Integer'
+jdhvjhfv,654567,400,Invalid value 'jdhvjhfv' for parameter 'orgId' of type 'Integer'

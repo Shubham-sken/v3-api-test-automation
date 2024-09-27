@@ -1,0 +1,145 @@
+orgid,code,response,Unnamed: 3,actual_response,expected_response
+520,200,"[
+        {
+            ""name"": ""Salesken Revenue Intelligence"",
+            ""description"": ""Access to deal insights and revenue insights for near accurate prediction based on actual customer conversations. Understand the voice of customers and get market insights which can be used to fix gaps in the product or the sales script. Identify the successes and challenges for each sales rep and explore the opportunities of improvement."",
+            ""iconUrl"": ""/images/revenue_intelligence.svg"",
+            ""subServices"": [],
+            ""serviceId"": 1,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""Salesken Realtime Sales Enablement"",
+            ""description"": ""Use Al-powered sales rep learning assistant to coach them in evolving and improving their sales pitch as per market trends. Access to custom battle cards, on-call assistance for personalized conversation and data-driven responses for rebuttals for higher deal closure rates. Lead with impactful conversations with customized messaging for individual prospects."",
+            ""iconUrl"": ""/images/realtime_sales.svg"",
+            ""subServices"": [],
+            ""serviceId"": 2,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""Salesken Quality Assurance"",
+            ""description"": ""Al powered automated quality assurance for quality leaders to ensure that your associates are accurate & consistent on all calls without requiring manual call scoring."",
+            ""iconUrl"": ""/images/quality_assurance.svg"",
+            ""subServices"": [],
+            ""serviceId"": 3,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""Salesken Telephony"",
+            ""description"": ""Install Salesken powered cloud telephony to save on your telephony infrastructure and reach global audience remotely without requiring heavy setup on your end, just by click of a button. Includes access to call reports, SPAM reports and productivity reports."",
+            ""iconUrl"": ""/images/telephony.svg"",
+            ""subServices"": [],
+            ""serviceId"": 4,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""CRM Enrichment"",
+            ""description"": ""Enrich CRM with deals history to help the team have meaningful customer engagements."",
+            ""iconUrl"": ""/images/crm_enrichment_new.svg"",
+            ""subServices"": [
+                {
+                    ""serviceId"": 6,
+                    ""name"": ""Push Deal Summary"",
+                    ""description"": ""Enrich CRM with deals history to help the team have meaningful customer engagements."",
+                    ""isEnabled"": true
+                },
+                {
+                    ""serviceId"": 7,
+                    ""name"": ""Push Revenue Insights"",
+                    ""description"": ""Enrich CRM with revenue insights that can be used on Sales dashboards."",
+                    ""isEnabled"": true
+                },
+                {
+                    ""serviceId"": 8,
+                    ""name"": ""Push Lead Information"",
+                    ""description"": ""Enrich CRM with updated lead profile from calls without requiring reps to manually fill in."",
+                    ""isEnabled"": true
+                }
+            ],
+            ""serviceId"": 5,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        }
+    ]",,"{
+    ""code"": 200,
+    ""message"": ""SUCCESS"",
+    ""response"": [
+        {
+            ""name"": ""Salesken Revenue Intelligence"",
+            ""description"": ""Access to deal insights and revenue insights for near accurate prediction based on actual customer conversations. Understand the voice of customers and get market insights which can be used to fix gaps in the product or the sales script. Identify the successes and challenges for each sales rep and explore the opportunities of improvement."",
+            ""iconUrl"": ""/images/revenue_intelligence.svg"",
+            ""subServices"": [],
+            ""serviceId"": 1,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""Salesken Realtime Sales Enablement"",
+            ""description"": ""Use Al-powered sales rep learning assistant to coach them in evolving and improving their sales pitch as per market trends. Access to custom battle cards, on-call assistance for personalized conversation and data-driven responses for rebuttals for higher deal closure rates. Lead with impactful conversations with customized messaging for individual prospects."",
+            ""iconUrl"": ""/images/realtime_sales.svg"",
+            ""subServices"": [],
+            ""serviceId"": 2,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""Salesken Quality Assurance"",
+            ""description"": ""Al powered automated quality assurance for quality leaders to ensure that your associates are accurate & consistent on all calls without requiring manual call scoring."",
+            ""iconUrl"": ""/images/quality_assurance.svg"",
+            ""subServices"": [],
+            ""serviceId"": 3,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""Salesken Telephony"",
+            ""description"": ""Install Salesken powered cloud telephony to save on your telephony infrastructure and reach global audience remotely without requiring heavy setup on your end, just by click of a button. Includes access to call reports, SPAM reports and productivity reports."",
+            ""iconUrl"": ""/images/telephony.svg"",
+            ""subServices"": [],
+            ""serviceId"": 4,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        },
+        {
+            ""name"": ""CRM Enrichment"",
+            ""description"": ""Enrich CRM with deals history to help the team have meaningful customer engagements."",
+            ""iconUrl"": ""/images/crm_enrichment_new.svg"",
+            ""subServices"": [
+                {
+                    ""serviceId"": 6,
+                    ""name"": ""Push Deal Summary"",
+                    ""description"": ""Enrich CRM with deals history to help the team have meaningful customer engagements."",
+                    ""isEnabled"": true
+                },
+                {
+                    ""serviceId"": 7,
+                    ""name"": ""Push Revenue Insights"",
+                    ""description"": ""Enrich CRM with revenue insights that can be used on Sales dashboards."",
+                    ""isEnabled"": true
+                },
+                {
+                    ""serviceId"": 8,
+                    ""name"": ""Push Lead Information"",
+                    ""description"": ""Enrich CRM with updated lead profile from calls without requiring reps to manually fill in."",
+                    ""isEnabled"": true
+                }
+            ],
+            ""serviceId"": 5,
+            ""isEnabled"": true,
+            ""serviceMode"": ""TRIAL""
+        }
+    ]
+}","""Expected Success Response"""
+32jji,400,Invalid value '32jji' for parameter 'orgId' of type 'Integer',,,
+23@520,400,Invalid value '23@520' for parameter 'orgId' of type 'Integer',,,
+87976,404,"Organization not found for given organizationId: 87,976",,,
+0.21,400,Invalid value '0.21' for parameter 'orgId' of type 'Integer',,,
+0,400,"[""Invalid Organization Id.""]",,,
+,400,Invalid value 'services' for parameter 'orgId' of type 'Integer',,,
+aGVsbG8gd29ybGQ=,400,Invalid value 'aGVsbG8gd29ybGQ=' for parameter 'orgId' of type 'Integer',,,
+???? ???,401,Full authentication is required to access this resource,,,
+U+0048 U+0065 U+006C U+006C U+006F,400,Invalid value 'U+0048 U+0065 U+006C U+006C U+006F' for parameter 'orgId' of type 'Integer',,,
